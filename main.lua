@@ -408,7 +408,7 @@ function getObjectPressed(x,y)
             up = elevatorButtonDim(dim.x,dim.y,true)
 
             if isObjectPressed(up,pressedDim) and not isElevatorCarOnFloor(e,f) then
-                print("up:e="..e.." f="..f..dim.f..":",isObjectPressed(up, {x=x,y=y}))
+                print("up:e="..e.." f="..f..":",isObjectPressed(up, {x=x,y=y}))
                 elevatorButtons[e][dim.f].up = true
                 ed = findElevatorGoingUp(f)
                 elevatorDest[smartFindElevatorDest(e,ed.e)] = f
