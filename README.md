@@ -14,6 +14,8 @@ buttons. When a level button is clicked, the elevator moves to the desired level
 operate in single or multi-mode. In single mode operation, each elevator dispatches its own car. In multi-mode 
 operation, the controller makes smart optimization decisions to dispatch the elevator with least waiting time.
 
+[Video demo](https://youtu.be/FVe8HDRILyQ)
+
 ## Implementation Details
 
 ### Models
